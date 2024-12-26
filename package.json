@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
