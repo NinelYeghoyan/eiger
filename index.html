@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pixel Perfect App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="flex-center">
+    <div class="app flex flex-col relative">
+      <div class="banner flex flex-col">
+        <header class="banner__header flex-between">
+          <a href="#" class="banner__logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </a>
+
+          <ul class="banner__header-list flex">
+            <li class="banner__header-item flex-center relative">
+              <img src="assets/user.webp" alt="user_1" />
+            </li>
+            <li class="banner__header-item flex-center relative">
+              <img src="assets/user.webp" alt="user_2" />
+            </li>
+            <li class="banner__header-item flex-center relative">
+              <img src="assets/user.webp" alt="user_3" />
+            </li>
+          </ul>
+        </header>
+
+        <h1 class="banner__title"><span>Hello there</span> How can we help?</h1>
+      </div>
+
+      <div class="main flex flex-col">
+        <div class="contact flex-between">
+          <p class="contact__text">
+            <span>Send us a message</span>
+            We typically reply within a day
+          </p>
+
+          <img src="./assets/arrow.svg" class="contact__arrow" alt="arrow" />
+        </div>
+
+        <div class="search flex flex-col">
+          <div class="search__input relative">
+            <label for="search">
+              <input
+                type="text"
+                id="search"
+                class="search__input-field"
+                placeholder="Search for help"
+              />
+            </label>
+
+            <div class="search__icon">
+              <img src="./assets/search.svg" alt="search" />
+            </div>
+          </div>
+
+          <ul class="search__list">
+            <li class="search__item flex-between">
+              <p class="search__text">In-game bonuses and free spins</p>
+              <img
+                class="search__chevron"
+                src="./assets/chevron-right.svg"
+                alt="chevron-right"
+              />
+            </li>
+            <li class="search__item flex-between">
+              <p class="search__text">Crypto deposit still not credited?</p>
+              <img
+                class="search__chevron"
+                src="./assets/chevron-right.svg"
+                alt="chevron-right"
+              />
+            </li>
+            <li class="search__item flex-between">
+              <p class="search__text">EigerX VIP program overview</p>
+              <img
+                class="search__chevron"
+                src="./assets/chevron-right.svg"
+                alt="chevron-right"
+              />
+            </li>
+            <li class="search__item flex-between">
+              <p class="search__text">Achievements and awards</p>
+              <img
+                class="search__chevron"
+                src="./assets/chevron-right.svg"
+                alt="chevron-right"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer flex">
+        <div class="footer__item flex-center flex-col">
+          <img src="./assets/home.svg" alt="home" />
+          <p class="footer__text footer__text--highlight">Home</p>
+        </div>
+        <div class="footer__item flex-center flex-col">
+          <img src="./assets/messages.svg" alt="messages" />
+          <p class="footer__text">Messages</p>
+        </div>
+        <div class="footer__item flex-center flex-col">
+          <img src="./assets/help.svg" alt="help" />
+          <p class="footer__text">Help</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
